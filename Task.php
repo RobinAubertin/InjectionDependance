@@ -1,7 +1,11 @@
 <?php
 class Task
 {
-    public function __construct(){
-        
-    }  
+    private $name;
+    private $description;
+
+    public function __construct($name, $description){
+        $this->name = $name;
+        $this->description = $description;
+    }
 }
